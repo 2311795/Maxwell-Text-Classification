@@ -68,7 +68,7 @@ The script includes a custom rule where, if a job description is predicted to ha
 Confusion matrices are generated for each question to visualize the performance of the model. The matrices help in understanding the distribution of true and predicted labels.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](license/LICENSE) file for details
 
 ## References
 
