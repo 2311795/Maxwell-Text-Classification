@@ -7,7 +7,6 @@ This project implements a machine learning pipeline to classify job descriptions
 - [Project Structure](#projectstructure)
 - [How it Works](#howitworks)
 - [Usage](#usage)
-- [Usage](#usage)
 - [License](#license)
 - [References](#references)
 
