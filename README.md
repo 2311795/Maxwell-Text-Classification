@@ -5,7 +5,7 @@ This repository contains three Python scripts for classifying job descriptions a
 
 - **Model 1**: Implements text classification using Logistic Regression, SVM, and Random Forest.
 - **Model 2**: Multi-output classification using XGBoost to predict responses to multiple questions.
-- **Model**: Utilizes BERT embeddings and a combination of classifiers to handle imbalanced datasets and interpret models using SHAP.
+- **Model 3**: Utilizes BERT embeddings and a combination of classifiers to handle imbalanced datasets and interpret models using SHAP.
 
 ## Installation
 
