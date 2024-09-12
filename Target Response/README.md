@@ -1,5 +1,14 @@
 # Multi-Label Job Description Classification with Gradient Boosting
 
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Project Structure](#projectstructure)
+- [Usage](#usage)
+- [License](#license)
+- [References](#references)
+
 ## Overview
 
 This project implements a machine learning pipeline to classify job descriptions into multiple categories based on responses to a set of predefined questions. The model uses a Gradient Boosting classifier wrapped in a `MultiOutputClassifier` to handle the multi-label classification task. The project also includes hyperparameter tuning using `GridSearchCV` and a custom rule to adjust predictions.
@@ -67,3 +76,10 @@ The script includes a custom rule where, if a job description is predicted to ha
 
 ##### Visualization
 Confusion matrices are generated for each question to visualize the performance of the model. The matrices help in understanding the distribution of true and predicted labels.
+
+## References
+
+1. **Pandas Documentation**: [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+2. **Scikit-Learn User Guide**: [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+3. **Seaborn Documentation**: [Seaborn Documentation](https://seaborn.pydata.org/)
+4. **Gradient Boosting in Scikit-Learn**: [Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
