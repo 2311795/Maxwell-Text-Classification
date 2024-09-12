@@ -3,14 +3,13 @@ This project implements a machine learning pipeline to classify job descriptions
 
 ## Table of Contents
 - [Overview](#overview)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Project Structure](#projectstructure)
-- [How it Works](#installation)
+- [How it Works](#howitworks)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Usage](#usage)
 - [License](#license)
-
+- [References](#references)
 
 ## Overview
 
@@ -80,4 +79,20 @@ for job_desc, response in zip(job_descriptions, predicted_responses):
     print(f'Job Description: {job_desc}\nPredicted Response: {response}\n')
 ```
 
+## License
 This project is licensed under the MIT License - see the LICENSE file for details
+
+## References
+
+1. **Pandas Documentation**: Official documentation for the Pandas library, used extensively for data manipulation in this project. [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/).
+
+2. **Scikit-Learn User Guide**: Comprehensive guide on how to use Scikit-Learn for machine learning, including model training and evaluation techniques. [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html).
+
+3. **NLTK Book**: The Natural Language Toolkit (NLTK) is a powerful library for text processing in Python. This book provides a deep dive into how to use NLTK effectively. [NLTK Book](https://www.nltk.org/book/).
+
+4. **CSV Format**: Understanding the structure and usage of CSV files, which are commonly used for datasets in data science projects. [Wikipedia: Comma-Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values).
+
+5. **Machine Learning Algorithms**: An overview of different machine learning algorithms and their applications, including those used in this project (Logistic Regression, SVM, Random Forest). [Introduction to Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
+
+6. **Label Mapping Techniques**: Learn more about how label mapping is handled in classification tasks. [Label Mapping Guide](https://example.com/label-mapping).
+
