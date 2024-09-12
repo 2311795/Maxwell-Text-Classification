@@ -37,8 +37,33 @@ The project follows these main steps:
 
 ## Usage
 
-### Clone the Repository:
+##### Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/job-description-classification.git
-cd job-description-classification
+
+git clone https://github.com/2311795/Maxwell-Text-Classification.git
+cd Maxwell-Text-Classification
+```
+##### Run the Script:
+Execute the script to perform the classification:
+```bash
+Target Response.ipynb
+```
+##### Evaluate the Model:
+The script will output the averaged accuracy, precision, recall, and F1 score across all questions. It will also print the predicted responses for a sample new job description and visualize confusion matrices for the predictions.
+
+The script will produce output like:
+```
+Job Description: To provide an effective Joinery resource to ensure the University fabric is efficiently maintained...
+Predicted Responses: {'Question 7': 'A', 'Question 8': 'C', 'Question 9': 'B', 'Question 10': 'D', 'Question 11': 'A'}
+
+Accuracy: 0.8524
+Precision: 0.8413
+Recall: 0.8379
+F1 Score: 0.8396
+```
+##### Custom Prediction Adjustment Rule
+The script includes a custom rule where, if a job description is predicted to have an 'A' in any response, all preceding responses are automatically set to 'D'. This rule is applied after the initial predictions and can be adjusted according to specific business needs.
+
+##### Visualization
+Confusion matrices are generated for each question to visualize the performance of the model. The matrices help in understanding the distribution of true and predicted labels.
