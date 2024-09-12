@@ -79,7 +79,7 @@ for job_desc, response in zip(job_descriptions, predicted_responses):
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/2311795/Maxwell-Text-Classification/blob/main/LICENSE) file for details
 
 ## References
 
