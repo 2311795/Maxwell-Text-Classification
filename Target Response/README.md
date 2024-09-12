@@ -4,7 +4,7 @@
 - [Overview](#overview)
 - [Installation](#installation)
 - [Dataset](#dataset)
-- [Project Structure](#projectstructure)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [License](#license)
 - [References](#references)
