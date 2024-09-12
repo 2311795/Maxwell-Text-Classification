@@ -74,7 +74,7 @@ SHAP (SHapley Additive exPlanations) is used to interpret the model predictions.
 In Code 2, synthetic data was added to the original dataset to improve class balance. This led to better model performance, as reflected in higher accuracy and other evaluation metrics.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/2311795/Maxwell-Text-Classification/blob/main/LICENSE) file for details.
 
 ## References
 
