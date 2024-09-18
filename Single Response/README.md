@@ -4,7 +4,7 @@ This project implements a machine learning pipeline to classify job descriptions
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Project Structure](#projectstructure)
+- [Project Structure](#project-structure)
 - [How it Works](#howitworks)
 - [Usage](#usage)
 - [License](#license)
@@ -79,7 +79,7 @@ for job_desc, response in zip(job_descriptions, predicted_responses):
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/2311795/Maxwell-Text-Classification/blob/main/LICENSE) file for details
 
 ## References
 
