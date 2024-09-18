@@ -11,14 +11,14 @@
 
 ## Overview
 
-This project implements a machine learning pipeline to classify job descriptions into multiple categories based on responses to a set of predefined questions. The model uses a Gradient Boosting classifier wrapped in a `MultiOutputClassifier` to handle the multi-label classification task. The project also includes hyperparameter tuning using `GridSearchCV` and a custom rule to adjust predictions.
+This project implements a machine learning pipeline to classify job descriptions into multiple categories based on responses to a set of predefined questions. The model uses a XGBoost classifier wrapped in a `MultiOutputClassifier` to handle the multi-label classification task. The project also includes hyperparameter tuning using `GridSearchCV` and a custom rule to adjust predictions.
 
 ## Installation
 
 Ensure you have Python installed along with the required libraries. You can install the necessary libraries using `pip`:
 
 ```bash
-pip install pandas scikit-learn seaborn
+pip install pandas scikit-learn seaborn XGBoost
 ```
 
 ## Dataset
@@ -36,7 +36,7 @@ The project follows these main steps:
 2. **Encode Responses**: Convert categorical responses ('A', 'B', 'C', 'D') into numeric labels (0, 1, 2, 3) for compatibility with machine learning models.
 3. **Text Preprocessing and Vectorization**: Convert job descriptions into TF-IDF features, using bigrams and removing common English stopwords.
 4. **Data Splitting**: Split the dataset into training (80%) and testing (20%) sets.
-5. **Model Definition**: Define a Gradient Boosting model wrapped in a `MultiOutputClassifier`.
+5. **Model Definition**: Define a XGBoost model wrapped in a `MultiOutputClassifier`.
 6. **Hyperparameter Tuning**: Use `GridSearchCV` to optimize model parameters.
 7. **Model Training**: Train the model on the training set using the best hyperparameters.
 8. **Prediction and Evaluation**: Predict on the test set and evaluate model performance using accuracy, precision, recall, and F1 score.
@@ -63,9 +63,6 @@ The script will output the averaged accuracy, precision, recall, and F1 score ac
 
 ##### Custom Prediction Adjustment Rule
 The script includes a custom rule where, if a job description is predicted to have an 'A' in any response, all preceding responses are automatically set to 'D'. This rule is applied after the initial predictions and can be adjusted according to specific business needs.
-
-##### Visualization
-Confusion matrices are generated for each question to visualize the performance of the model. The matrices help in understanding the distribution of true and predicted labels.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](license/LICENSE) file for details
