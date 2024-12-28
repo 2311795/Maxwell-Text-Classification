@@ -22,6 +22,25 @@ Each script is tailored to address a specific element of job descriptions, such 
 - Service Delivery
 - Teamwork and Motivation
 - Knowledge and Experience
+  
+### Datasets
+Each dataset is stored in the `data/` folder and contains:
+- **Job Description**: Text describing the job role.
+- **Target Variables**: Questions or criteria for classification (e.g., Q12, Q13, etc.).
+
+### Scripts
+Each Python script performs the following tasks:
+1. **Data Preprocessing**: Cleans and prepares the dataset.
+2. **Model Training**: Trains a Logistic Regression model with hyperparameter tuning.
+3. **Evaluation**: Reports classification metrics.
+4. **Prediction**: Makes predictions for new job descriptions.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/job-classification.git
+
 
 
 ## Installation
