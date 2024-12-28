@@ -1,11 +1,28 @@
-# Job Description Classification and Response Prediction
+# Job Description Classification Project
 
-## Overview
-This repository contains three Python scripts for classifying job descriptions and predicting responses to various questions using different machine learning models.
+This repository contains a collection of Python scripts designed to classify job descriptions based on various criteria such as **Single Response**, **Matrix Response**, and **Target Response**. Each script corresponds to a specific classification task and uses its respective dataset.
 
-- **Model 1**: Implements text classification using Logistic Regression, SVM, and Random Forest.
-- **Model 2**: Multi-output classification using XGBoost to predict responses to multiple questions.
-- **Model 3**: Utilizes BERT embeddings and a combination of classifiers to handle imbalanced datasets and interpret models using SHAP.
+## Project Overview
+
+The objective of this project is to analyze job descriptions and classify them into predefined categories based on the questions provided in the dataset. The project leverages:
+- **TF-IDF Vectorization** for text feature extraction.
+- **Logistic Regression** as the classification algorithm.
+- **GridSearchCV** for hyperparameter optimization.
+- **StratifiedKFold** for balanced cross-validation.
+
+Each script is tailored to address a specific element of job descriptions, such as:
+- Liaison and Networking
+- Decision Making
+- Teamwork and Motivation
+- Work Environment
+- Initiative and Problem Solving
+- Teaching and Learning Support
+- Analysis and Research
+- Planning and Organising Resources
+- Service Delivery
+- Teamwork and Motivation
+- Knowledge and Experience
+
 
 ## Installation
 
