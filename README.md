@@ -39,7 +39,7 @@ Each Python script performs the following tasks:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/job-classification.git
+   git clone https://github.com/2311795/Maxwell-Text-Classification
 
 
 
