@@ -8,6 +8,7 @@ The objective of this project is to analyze job descriptions and classify them i
 - **TF-IDF Vectorization** for text feature extraction.
 - **Logistic Regression** as the classification algorithm.
 - **GridSearchCV** for hyperparameter optimization.
+- 
 
 Each script is tailored to address a specific element of job descriptions, such as:
 - Liaison and Networking
@@ -25,7 +26,7 @@ Each script is tailored to address a specific element of job descriptions, such 
 ### Datasets
 Each dataset is stored in the `data/` folder and contains:
 - **Job Description**: Text describing the job role.
-- **Target Variables**: Questions or criteria for classification (e.g., Q12, Q13, etc.).
+- **Target Variables**: Questions or criteria (Single, Matrix & Target Response) for classification (e.g., Q12, Q13, etc.).
 
 ### Scripts
 Each Python script performs the following tasks:
