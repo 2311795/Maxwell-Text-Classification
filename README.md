@@ -8,7 +8,6 @@ The objective of this project is to analyze job descriptions and classify them i
 - **TF-IDF Vectorization** for text feature extraction.
 - **Logistic Regression** as the classification algorithm.
 - **GridSearchCV** for hyperparameter optimization.
-- **StratifiedKFold** for balanced cross-validation.
 
 Each script is tailored to address a specific element of job descriptions, such as:
 - Liaison and Networking
