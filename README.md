@@ -50,46 +50,4 @@ To install the necessary libraries, run:
 ```bash
 pip install -r requirements.txt
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/2311795/Maxwell-Text-Classification/blob/main/main.ipynb)
-
-# 📌 Cell 1: Clone the repo
-!git clone https://github.com/2311795/Maxwell-Text-Classification.git
-%cd Maxwell-Text-Classification
-
-# 📌 Cell 2: Install required packages
-!pip install -r requirements.txt
-
-# 📌 Cell 3: Dropdown to select and run a script
-import ipywidgets as widgets
-from IPython.display import display
-
-# List of available scripts
-scripts = [
-    "Matrix Response/matrix_script1.py",
-    "Matrix Response/matrix_script2.py",
-    "Single Response/single_script1.py",
-    "Single Response/single_script2.py",
-    "Target Response/target_script1.py",
-    "Target Response/target_script2.py"
-]
-
-dropdown = widgets.Dropdown(
-    options=scripts,
-    description='Run Script:',
-    layout=widgets.Layout(width='70%')
-)
-
-run_button = widgets.Button(description="▶️ Run", button_style="success")
-
-output = widgets.Output()
-
-def run_script(b):
-    with output:
-        output.clear_output()
-        print(f"Running {dropdown.value}...\n")
-        !python "{dropdown.value}"
-
-run_button.on_click(run_script)
-
-display(dropdown, run_button, output)
 
