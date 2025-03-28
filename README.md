@@ -49,3 +49,14 @@ To install the necessary libraries, run:
 
 ```bash
 pip install -r requirements.txt
+
+```
+ 
+## Collab
+
+To open in Collab
+
+```bash
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/2311795/Maxwell-Text-Classification/blob/main/main.ipynb)
+```
+
